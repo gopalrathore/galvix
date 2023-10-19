@@ -519,6 +519,7 @@ footer .social-list .icon {
   .section-1 .content, .content {
     width: 95%;
     padding: 8rem 0;
+    flex-wrap: wrap;
   }
   .section-1 .content h2 {
     font-size: 2rem;
@@ -554,8 +555,14 @@ footer .social-list .icon {
     padding-right: 0;
     margin-bottom: 40px;
   }
+  .section-4 .pricing {
+    flex-wrap: wrap;
+  }
   .section-5 .heading {
     width: 100%;
+  }
+  .section-5 .contact-us {
+    flex-wrap: wrap;
   }
   .contact-us form {
     width: 100%;
